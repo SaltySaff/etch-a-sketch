@@ -1,23 +1,27 @@
 body {
-    display: grid;
-    grid-template-columns: 10em 10em 10em 10em;
-    grid-template-rows: auto auto auto auto;
-    grid-template-areas: "three three three three"
-                         "one two two two"
-                         "one two two two"
-                         "one two two two";
     background: #ee9ca7; 
     background: -webkit-linear-gradient(to right, #ee9ca7, #ffdde1); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #ee9ca7, #ffdde1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+#title {
+    text-align: center;
+    margin: 0px auto;
+    font-family: sans-serif;
+    font-size: 50px;
+    width: 500px;
+    margin-top: 100px;
+}
+
 #container {
+    float: right;
+    margin: auto;
     display: grid;
-    height: 50em;
-    width: 50em;
-    grid-area: two;
-    margin-top: 4em;
-    margin-left: 25em;
+    height: 500px;
+    width: 500px;
+    margin-right: 703px;
+    margin-top: 50px;
+    
  
     
 }
@@ -30,10 +34,9 @@ body {
 }
 
 #options {
-    grid-area: one;
-    margin: auto;
-    margin-left: 10em;
-    margin-top: 25em;
+    float: left;
+    margin-left: 450px;
+    margin-top: 170px;
 }
 .button {
     background-color: transparent;
